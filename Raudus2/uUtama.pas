@@ -18,6 +18,8 @@ type
     tabMahasiswa: TRaTabSheet;
     procedure btnMahasiswaClick(Sender: TObject);
     procedure btnHomeClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+   
   private
     { Private declarations }
   public
@@ -40,6 +42,15 @@ end;
 procedure TForm1.btnHomeClick(Sender: TObject);
 begin
   rtabs.ActiveTabIndex:=0;
+end;
+
+
+
+procedure TForm1.FormShow(Sender: TObject);
+begin
+  tabHome.TabVisible:=False;
+  tabMahasiswa.TabVisible:=False;
+  rtabs.ActiveTab:=tabHome;
 end;
 
 end.

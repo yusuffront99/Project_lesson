@@ -15,9 +15,12 @@ type
     btnMahasiswa: TRaBitButton;
     rtabs: TRaTabControl;
     tabHome: TRaTabSheet;
+    img1: TRaImage;
+    rpnl4: TRaPanel;
     tabMahasiswa: TRaTabSheet;
     procedure btnMahasiswaClick(Sender: TObject);
     procedure btnHomeClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
    
   private
     { Private declarations }
@@ -44,5 +47,12 @@ begin
 end;
 
 
+
+procedure TForm1.FormShow(Sender: TObject);
+begin
+  tabHome.TabVisible:=False;
+  tabMahasiswa.TabVisible:=False;
+  rtabs.ActiveTab:=tabHome;
+end;
 
 end.

@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 215
-  Top = 127
+  Left = 239
+  Top = 78
   BorderStyle = bsNone
   Caption = 'APK PRAKTIKUM VISUAL 3'
   ClientHeight = 517
@@ -14,6 +14,7 @@ object Form1: TForm1
   OldCreateOrder = False
   Position = poDefault
   WindowState = wsMaximized
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object rpnl1: TRaPanel
@@ -217,13 +218,16 @@ object Form1: TForm1
     Top = 105
     Width = 824
     Height = 351
-    ActiveTab = tabMahasiswa
+    ActiveTab = tabHome
     Align = alClient
+    Color = cl3DLight
     TabOrder = 3
     object tabHome: TRaTabSheet
+      Color = clWindow
       Title.Caption = 'tabHome'
     end
     object tabMahasiswa: TRaTabSheet
+      Color = clAqua
       Title.Caption = 'tabMahasiswa'
     end
   end
