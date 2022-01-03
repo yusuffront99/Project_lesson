@@ -4,7 +4,8 @@ interface
 
 uses
   Classes, SysUtils, Controls,
-  RaApplication, RaBase, RaControlsVCL, jpeg;
+  RaApplication, RaBase, RaControlsVCL, jpeg, DB, ZAbstractRODataset,
+  ZAbstractDataset, ZDataset, ZAbstractConnection, ZConnection;
 
 type
   TForm1 = class(TRaFormCompatible)
@@ -15,7 +16,13 @@ type
     btnMahasiswa: TRaBitButton;
     rtabs: TRaTabControl;
     tabHome: TRaTabSheet;
+    img1: TRaImage;
+    rpnl4: TRaPanel;
     tabMahasiswa: TRaTabSheet;
+    connect: TZConnection;
+    datasiswa: TZQuery;
+    gridsiswa: TRaDBGrid;
+    ds: TDataSource;
     procedure btnMahasiswaClick(Sender: TObject);
     procedure btnHomeClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
