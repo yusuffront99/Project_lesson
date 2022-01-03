@@ -217,13 +217,16 @@ object Form1: TForm1
     Top = 105
     Width = 824
     Height = 351
-    ActiveTab = tabMahasiswa
+    ActiveTab = tabHome
     Align = alClient
+    Color = cl3DLight
     TabOrder = 3
     object tabHome: TRaTabSheet
+      Color = clWindow
       Title.Caption = 'tabHome'
     end
     object tabMahasiswa: TRaTabSheet
+      Color = clAqua
       Title.Caption = 'tabMahasiswa'
     end
   end
