@@ -1,9 +1,9 @@
 object Form1: TForm1
   Left = 215
-  Top = 152
-  Width = 870
+  Top = 187
+  Width = 892
   Height = 450
-  Caption = 'Form Menu'
+  Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,103 +17,17 @@ object Form1: TForm1
   TextHeight = 13
   object rpnl1: TRaPanel
     Left = 0
-    Top = 73
-    Width = 217
-    Height = 271
-    Align = alLeft
-    Color = clTeal
-    TabOrder = 0
-    UI = 'cupertino'
-    object btnMahasiswa: TRaBitButton
-      Left = 56
-      Top = 24
-      Width = 105
-      Height = 41
-      Caption = 'Mahasiswa'
-      Ctl3D = False
-      ParentCtl3D = False
-      ParentShowHint = False
-      ShowHint = False
-      TabOrder = 0
-      OnClick = btnMahasiswaClick
-      Glyph.Data = {
-        A2070000424DA207000000000000360000002800000019000000190000000100
-        1800000000006C07000025160000251600000000000000000000FFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFD5D2CC493D25564C35564C35564C
-        35564C35564C35564C35564C35564C35564C35564C35564C35564C35564C3556
-        4C354A3E25CDC9C3FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFF2F0
-        EF50452E63594463594463594463594463594463594463594463594463594463
-        594463594463594463594463594451462FEAE8E6FFFFFFFFFFFFFFFFFF00FFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFF615741615742645A45645A45645A45645A4564
-        5A45645A45645A45645A45645A45645A45645A45645A456258425C513BFFFFFF
-        FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC5C1B952462F64
-        5A45645A45645A45645A45635944625740625740635944645A45645A45645A45
-        645A45534730BEB9B0FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFF8B8374544931635944645A456359446C512F7C725F7C7360
-        6D5230635943645A45635944544932877F6FFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAFA99E4F442C5A4F39
-        71542F1893E5009EFF009EFF1596EB7155325A4F394E432BA9A499FFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFE8F9FF7EDFFFFFFFFF
-        FFFFFFFFFFFFFCFCFCAE9F8D4480A4009BFF0097FF0097FF009BFF3D82ABAC9D
-        8AFAFAFAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
-        FFFFFF31CBFF00B7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF67C7FF008EFF0098
-        FF0099FF008FFF5AC2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFF00FFFFFFFFFFFFD8F5FF00B8FF00BDFF6AD9FFFFFFFFFFFFFFFFFF
-        FFFFFFFF68C3FF43B3FF57BBFF56BAFF45B3FF5CBEFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFAFEBFF00B8FF00BD
-        FF41CFFFFFFFFFFFFFFFFFFFFFA3DAFF3DB0FF4EB7FF4DB7FF4DB7FF4EB7FF3F
-        B1FF99D5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFF
-        FFFFFFFFFFFFFF58D5FF0CC2FFFFFFFFFFFFFFFFFFFFF2F9FF31ACFF4CB6FF4D
-        B7FF4DB7FF4DB7FF4DB7FF4CB6FF32ACFFE9F6FFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFB0EAFF3ACEFFFFFFFFFFFFFFFF
-        FFFFA5DAFF42B2FF4EB9FF4DB9FF4DB7FF4DB7FF4DB8FF4EBAFF43B3FF9AD6FF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFA7
-        E8FF35CDFFFFFFFFFFFFFF92D3FF2BB0FF4FBAFF3F9ADC44A3E84DB9FF4DB8FF
-        45A6EB3E97D94FBAFF2EB2FF87CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FF00FFFFFFFFFFFFFFFFFFA7E8FF35CDFFFFFFFFFFFFFF78CEFF3365894FC3FF
-        3A8FCD3F9BDD4EB9FF4EB9FF429FE1388AC94FC3FF35688D6DC9FFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFA7E8FF35CDFFFFFFFF
-        FFFFFFF6ECE64340374FC0FF47C1FF47C0FF46BDFF46BDFF46BFFF47C1FF4EBF
-        FF444541ECE1D9FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
-        FFFFFFA7E8FF36D1FFFFFFFFD2D0CA645A47958562937950927A508C7E5F8A82
-        678A82678D7E5F927A50937950958562615844C8C3BCFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFF00FFFFFFFFFFFFFFFFFFA0EBFF34B7DF846D565347305F543F9185
-        658C80628C7F618C7F608C7F5F8C7F5F8C7F608C7F618C806291856660564154
-        49326C624EDCD9D5FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFF1F9FC7F67
-        4E4E422A62584260564285795D9084658E82638D81638D81628D81628D81628E
-        8163908465877C5E5F564262584350452D655A46F9F8F7FFFFFFFFFFFF00FFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFD3D0CB5A503A594F385F55416E634C7B705682
-        765B86795D867A5D83775C7D725770664E5F56425B503A574D36C8C4BDFFFFFF
-        FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA1
-        9C8F4F432B5E543E6157426056426056426056426056426157425E543F4F432B
-        958E80FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFF4F3F2716754544932625843645A45645A45
-        635943564B34695F4BEDEBE8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        C6C3BB564C345B513B5C523C534831B9B5ACFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8C8575867E6DFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-        FFFFFFFFFF00}
-    end
-  end
-  object rpnl2: TRaPanel
-    Left = 0
     Top = 0
-    Width = 854
-    Height = 73
+    Width = 876
+    Height = 113
     Align = alTop
-    Color = clPurple
-    TabOrder = 1
-    UI = 'cupertino'
+    Color = clGreen
+    TabOrder = 0
+    UI = 'cupertino-grad-v'
     object btnHome: TRaBitButton
-      Left = 56
-      Top = 16
-      Width = 105
+      Left = 40
+      Top = 32
+      Width = 121
       Height = 41
       Caption = 'Home'
       Ctl3D = False
@@ -201,28 +115,125 @@ object Form1: TForm1
         FFFFFFFFFFFFFFFFFFFF}
     end
   end
-  object rtabs: TRaTabControl
-    Left = 217
-    Top = 73
-    Width = 637
-    Height = 271
+  object rpnl2: TRaPanel
+    Left = 0
+    Top = 113
+    Width = 193
+    Height = 247
+    Align = alLeft
+    Color = clGreen
+    TabOrder = 1
+    UI = 'cupertino'
+    object btnMahasiswa: TRaBitButton
+      Left = 40
+      Top = 24
+      Width = 121
+      Height = 41
+      Caption = 'Mahasiswa'
+      Ctl3D = False
+      ParentCtl3D = False
+      ParentShowHint = False
+      ShowHint = False
+      TabOrder = 0
+      OnClick = btnMahasiswaClick
+      Glyph.Data = {
+        A2070000424DA207000000000000360000002800000019000000190000000100
+        1800000000006C07000025160000251600000000000000000000FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFD5D2CC493D25564C35564C35564C
+        35564C35564C35564C35564C35564C35564C35564C35564C35564C35564C3556
+        4C354A3E25CDC9C3FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFF2F0
+        EF50452E63594463594463594463594463594463594463594463594463594463
+        594463594463594463594463594451462FEAE8E6FFFFFFFFFFFFFFFFFF00FFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFF615741615742645A45645A45645A45645A4564
+        5A45645A45645A45645A45645A45645A45645A45645A456258425C513BFFFFFF
+        FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC5C1B952462F64
+        5A45645A45645A45645A45635944625740625740635944645A45645A45645A45
+        645A45534730BEB9B0FFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFF8B8374544931635944645A456359446C512F7C725F7C7360
+        6D5230635943645A45635944544932877F6FFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAFA99E4F442C5A4F39
+        71542F1893E5009EFF009EFF1596EB7155325A4F394E432BA9A499FFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFE8F9FF7EDFFFFFFFFF
+        FFFFFFFFFFFFFCFCFCAE9F8D4480A4009BFF0097FF0097FF009BFF3D82ABAC9D
+        8AFAFAFAFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+        FFFFFF31CBFF00B7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF67C7FF008EFF0098
+        FF0099FF008FFF5AC2FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFF00FFFFFFFFFFFFD8F5FF00B8FF00BDFF6AD9FFFFFFFFFFFFFFFFFF
+        FFFFFFFF68C3FF43B3FF57BBFF56BAFF45B3FF5CBEFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFAFEBFF00B8FF00BD
+        FF41CFFFFFFFFFFFFFFFFFFFFFA3DAFF3DB0FF4EB7FF4DB7FF4DB7FF4EB7FF3F
+        B1FF99D5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFF
+        FFFFFFFFFFFFFF58D5FF0CC2FFFFFFFFFFFFFFFFFFFFF2F9FF31ACFF4CB6FF4D
+        B7FF4DB7FF4DB7FF4DB7FF4CB6FF32ACFFE9F6FFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFB0EAFF3ACEFFFFFFFFFFFFFFFF
+        FFFFA5DAFF42B2FF4EB9FF4DB9FF4DB7FF4DB7FF4DB8FF4EBAFF43B3FF9AD6FF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFA7
+        E8FF35CDFFFFFFFFFFFFFF92D3FF2BB0FF4FBAFF3F9ADC44A3E84DB9FF4DB8FF
+        45A6EB3E97D94FBAFF2EB2FF87CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FF00FFFFFFFFFFFFFFFFFFA7E8FF35CDFFFFFFFFFFFFFF78CEFF3365894FC3FF
+        3A8FCD3F9BDD4EB9FF4EB9FF429FE1388AC94FC3FF35688D6DC9FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFA7E8FF35CDFFFFFFFF
+        FFFFFFF6ECE64340374FC0FF47C1FF47C0FF46BDFF46BDFF46BFFF47C1FF4EBF
+        FF444541ECE1D9FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+        FFFFFFA7E8FF36D1FFFFFFFFD2D0CA645A47958562937950927A508C7E5F8A82
+        678A82678D7E5F927A50937950958562615844C8C3BCFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFF00FFFFFFFFFFFFFFFFFFA0EBFF34B7DF846D565347305F543F9185
+        658C80628C7F618C7F608C7F5F8C7F5F8C7F608C7F618C806291856660564154
+        49326C624EDCD9D5FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFF1F9FC7F67
+        4E4E422A62584260564285795D9084658E82638D81638D81628D81628D81628E
+        8163908465877C5E5F564262584350452D655A46F9F8F7FFFFFFFFFFFF00FFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFD3D0CB5A503A594F385F55416E634C7B705682
+        765B86795D867A5D83775C7D725770664E5F56425B503A574D36C8C4BDFFFFFF
+        FFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA1
+        9C8F4F432B5E543E6157426056426056426056426056426157425E543F4F432B
+        958E80FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFF4F3F2716754544932625843645A45645A45
+        635943564B34695F4BEDEBE8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        C6C3BB564C345B513B5C523C534831B9B5ACFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8C8575867E6DFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFF00}
+    end
+  end
+  object rpnl3: TRaPanel
+    Left = 0
+    Top = 360
+    Width = 876
+    Height = 51
+    Align = alBottom
+    Color = clGreen
+    TabOrder = 2
+    UI = 'cupertino'
+  end
+  object rtbcntrl1: TRaTabControl
+    Left = 193
+    Top = 113
+    Width = 683
+    Height = 247
     ActiveTab = tabMahasiswa
     Align = alClient
-    TabOrder = 2
+    TabOrder = 3
     object tabHome: TRaTabSheet
-      Color = clWindow
-      Title.Caption = 'Home'
+      Title.Caption = 'tabHome'
       object img1: TRaImage
         Left = 0
         Top = 0
-        Width = 637
-        Height = 209
+        Width = 1087
+        Height = 423
         Align = alClient
         Center = True
+        Color = clWhite
         Ctl3D = False
         ParentCtl3D = False
         ParentShowHint = False
         ShowHint = False
+        ParentColor = False
         Picture.Data = {
           0A544A504547496D616765812D0000FFD8FFE000104A46494600010101006000
           600000FFDB0043000A07070907060A0908090B0B0A0C0F19100F0E0E0F1E1617
@@ -592,15 +603,15 @@ object Form1: TForm1
       end
       object rpnl4: TRaPanel
         Left = 0
-        Top = 209
-        Width = 637
-        Height = 41
+        Top = 423
+        Width = 1087
+        Height = 49
         Align = alBottom
-        Caption = 'UNIVERSITAS ISLAM KALIMANTAN MUHAMMAD ARSYAD AL BANJARI'
-        Color = clWindow
+        Caption = 'UNIVERSITAS ISLAM KALIMANTAN SYEKH MUHAMMAD ARSYAD AL BANJARI'
+        Color = clWhite
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clWindowText
-        Font.Height = -13
+        Font.Height = -11
         Font.Name = 'Tahoma'
         Font.Style = [fsBold]
         ParentFont = False
@@ -608,228 +619,63 @@ object Form1: TForm1
       end
     end
     object tabMahasiswa: TRaTabSheet
-      Color = clWindow
-      Title.Caption = 'Mahasiswa'
-      object dbgrd1: TDBGrid
+      Title.Caption = 'tabMahasiswa'
+      object grid: TRaDBGrid
         Left = 16
-        Top = 72
-        Width = 609
-        Height = 161
-        DataSource = ds1
+        Top = 112
+        Width = 637
+        Height = 281
+        Align = alCustom
+        Ctl3D = False
+        ParentCtl3D = False
+        ParentShowHint = False
+        ShowHint = False
         TabOrder = 0
         TitleFont.Charset = DEFAULT_CHARSET
         TitleFont.Color = clWindowText
         TitleFont.Height = -11
         TitleFont.Name = 'Tahoma'
         TitleFont.Style = []
-        Columns = <
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'nis'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'NIS'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'nama'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Nama Siswa'
-            Width = 140
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'tempat_lahir'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Tempat Lahir'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'tanggal_lahir'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Tanggal Lahir'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'jenis_kelamin'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Jenis Kelamin'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'agama'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Agama'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'wali'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Wali Murid'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'pekerjaan_wali'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Pekerjaan Wali'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'anak_ke'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Caption = 'Anak Ke'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'jml_saudara'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Jumlah Saudara'
-            Width = 100
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'alamat'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Alamat'
-            Width = 250
-            Visible = True
-          end
-          item
-            Alignment = taCenter
-            Expanded = False
-            FieldName = 'telepon'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Title.Alignment = taCenter
-            Title.Caption = 'Telepon'
-            Width = 120
-            Visible = True
-          end>
+        Columns = <>
+      end
+      object btn1: TRaBitButton
+        Left = 16
+        Top = 56
+        Width = 153
+        Height = 41
+        Caption = 'Tambah'
+        Color = clBlue
+        Ctl3D = False
+        ParentCtl3D = False
+        ParentShowHint = False
+        ShowHint = False
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindow
+        Font.Height = -13
+        Font.Name = 'Tahoma'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        OnClick = btn1Click
       end
     end
   end
-  object rpnl3: TRaPanel
-    Left = 0
-    Top = 344
-    Width = 854
-    Height = 67
-    Align = alBottom
-    Color = clTeal
-    TabOrder = 3
-    UI = 'cupertino'
-  end
-  object connect: TZConnection
+  object con1: TZConnection
     ControlsCodePage = cGET_ACP
+    AutoEncodeStrings = True
     Properties.Strings = (
-      'select * from tb_siswa'
-      'controls_cp=GET_ACP')
-    Connected = True
-    HostName = 'localhost'
-    Port = 3306
-    Database = '19630360_siakadsmpgambut'
-    User = 'root'
-    Protocol = 'mysql'
-    LibraryLocation = 'D:\SEMESTER 5\Visual_3\Project_lesson\libmysql.dll'
-    Left = 224
-    Top = 24
+      'AutoEncodeStrings=ON')
+    Port = 0
+    Left = 401
+    Top = 190
   end
-  object querysiswa: TZQuery
-    Connection = connect
-    Active = True
-    SQL.Strings = (
-      'select * from tb_siswa')
+  object siswa: TZQuery
     Params = <>
-    Left = 288
-    Top = 24
+    Left = 465
+    Top = 190
   end
   object ds1: TDataSource
-    DataSet = querysiswa
-    Left = 344
-    Top = 24
+    Left = 561
+    Top = 190
   end
 end

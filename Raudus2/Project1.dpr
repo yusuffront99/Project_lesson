@@ -6,7 +6,8 @@ uses
   RaApplication,
   RaApplicationExe,
   RaConfig,
-  UMenu in 'UMenu.pas' {Form1};
+  Unit1 in 'Unit1.pas' {Form1},
+  UNama in 'UNama.pas' {Form2};
 
 {$R *.res}
 
@@ -17,5 +18,6 @@ begin
   Application.Config.WwwDiskDirectory := 'C:\Program Files (x86)\Borland\Raudus\www';
   Application.Config.SchedulerMode := rsmRunInSuperThread;
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.
