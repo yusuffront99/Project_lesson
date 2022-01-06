@@ -10,7 +10,9 @@ uses
 type
   TForm1 = class(TRaFormCompatible)
     rpnl1: TRaPanel;
+    btnHome: TRaBitButton;
     rpnl2: TRaPanel;
+    btnMahasiswa: TRaBitButton;
     rpnl3: TRaPanel;
     rtbcntrl1: TRaTabControl;
     tabHome: TRaTabSheet;
@@ -18,12 +20,10 @@ type
     rpnl4: TRaPanel;
     tabMahasiswa: TRaTabSheet;
     grid: TRaDBGrid;
-    con1: TZConnection;
-    siswa: TZQuery;
-    ds1: TDataSource;
     btn1: TRaBitButton;
-    btnHome: TRaBitButton;
-    btnMahasiswa: TRaBitButton;
+    con1: TZConnection;
+    mahasiswa: TZQuery;
+    ds1: TDataSource;
     procedure btn1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure btnHomeClick(Sender: TObject);

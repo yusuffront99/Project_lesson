@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
+  Left = 215
+  Top = 187
   Width = 892
   Height = 450
   Caption = 'Form1'
@@ -224,8 +224,8 @@ object Form1: TForm1
       object img1: TRaImage
         Left = 0
         Top = 0
-        Width = 1087
-        Height = 423
+        Width = 683
+        Height = 177
         Align = alClient
         Center = True
         Color = clWhite
@@ -603,8 +603,8 @@ object Form1: TForm1
       end
       object rpnl4: TRaPanel
         Left = 0
-        Top = 423
-        Width = 1087
+        Top = 177
+        Width = 683
         Height = 49
         Align = alBottom
         Caption = 'UNIVERSITAS ISLAM KALIMANTAN SYEKH MUHAMMAD ARSYAD AL BANJARI'
@@ -636,7 +636,49 @@ object Form1: TForm1
         TitleFont.Height = -11
         TitleFont.Name = 'Tahoma'
         TitleFont.Style = []
-        Columns = <>
+        DataSource = ds1
+        Columns = <
+          item
+            Expanded = True
+            Visible = False
+            Color = 155860996
+            Alignment = ð¤@
+TLeftRight        ¤@Classes@ ¥@	TBiDiMode       ¥@bdLeftToRightbdRightToLeftbdRightToLeftNoAlignbdRightToLeftReadingOnlyC
+            Title.Caption = 'noreg'
+            Width = 100
+            AutoWidth = False
+            FieldName = 'noreg'
+          end
+          item
+            Expanded = True
+            Visible = False
+            Color = 155766064
+            Alignment = 
+            Title.Caption = 'nama'
+            Width = 100
+            AutoWidth = False
+            FieldName = 'nama'
+          end
+          item
+            Expanded = True
+            Visible = False
+            Color = 252726724
+            Alignment = 
+            Title.Caption = 'tempat_lahir'
+            Width = 100
+            AutoWidth = False
+            FieldName = 'tempat_lahir'
+          end
+          item
+            Expanded = True
+            Visible = False
+            Color = 155661728
+            Alignment = 
+            Title.Caption = 'tgl_lahir'
+            Width = 100
+            AutoWidth = False
+            FieldName = 'tgl_lahir'
+          end>
       end
       object btn1: TRaBitButton
         Left = 16
@@ -664,18 +706,30 @@ object Form1: TForm1
     ControlsCodePage = cGET_ACP
     AutoEncodeStrings = True
     Properties.Strings = (
-      'AutoEncodeStrings=ON')
-    Port = 0
+      'AutoEncodeStrings=ON'
+      'controls_cp=GET_ACP')
+    Connected = True
+    HostName = 'localhost'
+    Port = 3306
+    Database = 'datasiswa'
+    User = 'root'
+    Protocol = 'mysql'
+    LibraryLocation = 'D:\SEMESTER 5\Visual_3\Project_lesson\libmysql.dll'
     Left = 401
     Top = 190
   end
-  object siswa: TZQuery
+  object mahasiswa: TZQuery
+    Connection = con1
+    Active = True
+    SQL.Strings = (
+      'select * from tb_mahasiswa')
     Params = <>
     Left = 465
     Top = 190
   end
   object ds1: TDataSource
-    Left = 561
+    DataSet = mahasiswa
+    Left = 513
     Top = 190
   end
 end
