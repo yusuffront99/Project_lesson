@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
+  Left = 219
+  Top = 187
   Width = 870
   Height = 450
   Caption = 'Form1'
@@ -24,8 +24,6 @@ object Form1: TForm1
     ParentShowHint = False
     ShowHint = False
     TabOrder = 0
-    Items.Strings = (
-      '1')
   end
   object bulan: TRaComboBox
     Left = 160
@@ -38,12 +36,23 @@ object Form1: TForm1
     ShowHint = False
     TabOrder = 0
     Items.Strings = (
-      '1')
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10'
+      '11'
+      '12')
   end
   object tahun: TRaComboBox
     Left = 216
     Top = 88
-    Width = 49
+    Width = 89
     Height = 33
     Ctl3D = False
     ParentCtl3D = False
@@ -51,6 +60,19 @@ object Form1: TForm1
     ShowHint = False
     TabOrder = 0
     Items.Strings = (
-      '1')
+      '')
+  end
+  object btn1: TRaButton
+    Left = 104
+    Top = 152
+    Width = 201
+    Height = 33
+    Caption = 'btn1'
+    Ctl3D = False
+    ParentCtl3D = False
+    ParentShowHint = False
+    ShowHint = False
+    TabOrder = 3
+    OnClick = btn1Click
   end
 end
